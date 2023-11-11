@@ -1,0 +1,410 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5D3BAC5D-4500-4ED3-8D5A-94B6604E670F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Drone_Management_Tools</RootNamespace>
+    <AssemblyName>Drone Management Tools</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DocumentationFile>
+    </DocumentationFile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x64'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x64\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x64'">
+    <OutputPath>bin\x64\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x64</PlatformTarget>
+    <LangVersion>7.3</LangVersion>
+    <ErrorReport>prompt</ErrorReport>
+    <Prefer32Bit>true</Prefer32Bit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Drone.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationManifest>app.manifest</ApplicationManifest>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuGauge, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuGauge.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuLabel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuLabel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuShadowPanel, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuShadowPanel.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.BunifuTextBox, Version=4.1.1.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.5.0.3\lib\Bunifu.UI.WinForms.BunifuTextBox.dll</HintPath>
+    </Reference>
+    <Reference Include="DevExpress.Data.Desktop.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Data.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Drawing.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v22.2.Core, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.Utils.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraGrid.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.3.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c, processorArchitecture=MSIL">
+      <HintPath>..\packages\NLog.5.2.2\lib\net46\NLog.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.IO.Compression" />
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Runtime.Remoting" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Models\ActionModes.cs" />
+    <Compile Include="Models\Communication\CommDefaut.cs" />
+    <Compile Include="Models\Communication\CommParm.cs" />
+    <Compile Include="Models\Communication\CommTypes.cs" />
+    <Compile Include="Models\Configuration\ConfigInfo.cs" />
+    <Compile Include="Models\Device\DeviceAttribute.cs" />
+    <Compile Include="Models\Device\DeviceBase.cs" />
+    <Compile Include="Models\Device\DeviceComm.cs" />
+    <Compile Include="Models\Device\DeviceDoubleComm.cs" />
+    <Compile Include="Models\Device\DeviceLibrary.cs" />
+    <Compile Include="Models\Device\DeviceModel.cs" />
+    <Compile Include="Models\Device\DevicePositions.cs" />
+    <Compile Include="Models\Device\DevicePwm.cs" />
+    <Compile Include="Models\Device\DeviceScan.cs" />
+    <Compile Include="Models\Device\DeviceSingleComm.cs" />
+    <Compile Include="Models\Device\DeviceStates.cs" />
+    <Compile Include="Models\Drone\DroneCAN.cs" />
+    <Compile Include="Models\Drone\DroneConfig.cs" />
+    <Compile Include="Models\Drone\DroneModel.cs" />
+    <Compile Include="Models\Drone\DroneI2C.cs" />
+    <Compile Include="Models\Drone\DronePwm.cs" />
+    <Compile Include="Models\Drone\DroneTCP.cs" />
+    <Compile Include="Models\Drone\DroneUART.cs" />
+    <Compile Include="Models\Modes\AccessModes.cs" />
+    <Compile Include="Models\Modes\ServerClientModes.cs" />
+    <Compile Include="Models\Modes\MasterSlaveModes.cs" />
+    <Compile Include="Models\Modes\PermissionModes.cs" />
+    <Compile Include="Models\SourceDeviceModes.cs" />
+    <Compile Include="Models\UICmdTypes.cs" />
+    <Compile Include="Models\Voltage\VoltageConfig.cs" />
+    <Compile Include="Models\Voltage\VoltageRegulator.cs" />
+    <Compile Include="Organizer\ConnectionManager.cs" />
+    <Compile Include="Organizer\DataConverter\DataFrameCodes.cs" />
+    <Compile Include="Organizer\DataConverter\DataFrameConverter.cs" />
+    <Compile Include="Organizer\DataConverter\DataResponseStates.cs" />
+    <Compile Include="Organizer\DataConverter\DecodeUtils.cs" />
+    <Compile Include="Organizer\DeviceManager.cs" />
+    <Compile Include="Organizer\ConfigManager.cs" />
+    <Compile Include="Organizer\DataServerProcess.cs" />
+    <Compile Include="Organizer\DataConverter\EncodeUtils.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\AddDeviceForm_old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\AddDeviceForm_old.Designer.cs">
+      <DependentUpon>AddDeviceForm_old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\ConfigDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\ConfigDeviceForm.Designer.cs">
+      <DependentUpon>ConfigDeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\DeviceResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\DeviceResult.Designer.cs">
+      <DependentUpon>DeviceResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\AddDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\AddDeviceForm.Designer.cs">
+      <DependentUpon>AddDeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UIMain_old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UIMain_old.Designer.cs">
+      <DependentUpon>UIMain_old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\VoltageRegulatorForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\VoltageRegulatorForm.Designer.cs">
+      <DependentUpon>VoltageRegulatorForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\ManageDroneForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\ManageDroneForm.Designer.cs">
+      <DependentUpon>ManageDroneForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\EditDeviceForm_old.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\EditDeviceForm_old.Designer.cs">
+      <DependentUpon>EditDeviceForm_old.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\LibraryDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\LibraryDeviceForm.Designer.cs">
+      <DependentUpon>LibraryDeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\ScanDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\ScanDeviceForm.Designer.cs">
+      <DependentUpon>ScanDeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\ManageDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\ManageDeviceForm.Designer.cs">
+      <DependentUpon>ManageDeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_CAN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_CAN.Designer.cs">
+      <DependentUpon>UI_Comm_CAN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_PWM.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_PWM.Designer.cs">
+      <DependentUpon>UI_Comm_PWM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_UART.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_UART.Designer.cs">
+      <DependentUpon>UI_Comm_UART.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_TCP.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_TCP.Designer.cs">
+      <DependentUpon>UI_Comm_TCP.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_Spare.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_Spare.Designer.cs">
+      <DependentUpon>UI_Comm_Spare.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_I2C.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UI_Comm_I2C.Designer.cs">
+      <DependentUpon>UI_Comm_I2C.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\EditDeviceForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\EditDeviceForm.Designer.cs">
+      <DependentUpon>EditDeviceForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\ManageConfigForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\ManageConfigForm.Designer.cs">
+      <DependentUpon>ManageConfigForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utilities\FilterTypes.cs" />
+    <Compile Include="Utilities\LogTypes.cs" />
+    <Compile Include="Utilities\LogUtils.cs" />
+    <Compile Include="Utilities\HelperUtils.cs" />
+    <Compile Include="Models\Protocols\Protocol_CAN.cs" />
+    <Compile Include="Models\Communication\CommStates.cs" />
+    <Compile Include="Models\Device\DeviceCommTypes.cs" />
+    <Compile Include="Models\Device\DeviceConfig.cs" />
+    <Compile Include="Models\Protocols\Protocol_I2C.cs" />
+    <Compile Include="Models\Configuration\ConfigModel.cs" />
+    <Compile Include="Models\Protocols\Protocol_PWM.cs" />
+    <Compile Include="Models\Protocols\Protocol_TCP.cs" />
+    <Compile Include="Models\Protocols\Protocol_UART.cs" />
+    <Compile Include="UIDesign\SerialForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\SerialForm.Designer.cs">
+      <DependentUpon>SerialForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIDesign\UartConnectionForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIDesign\UartConnectionForm.Designer.cs">
+      <DependentUpon>UartConnectionForm.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UIMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UIMain.Designer.cs">
+      <DependentUpon>UIMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utilities\TreeNodeDefine.cs" />
+    <Compile Include="Utilities\TreeViewNodeSorter.cs" />
+    <None Include="app.manifest" />
+    <None Include="Config\DeviceLibrary.json" />
+    <None Include="Resources\MCU.png" />
+    <None Include="Resources\Drone_v2.png" />
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\AddDeviceForm_old.resx">
+      <DependentUpon>AddDeviceForm_old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\ConfigDeviceForm.resx">
+      <DependentUpon>ConfigDeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\DeviceResult.resx">
+      <DependentUpon>DeviceResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\AddDeviceForm.resx">
+      <DependentUpon>AddDeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UIMain_old.resx">
+      <DependentUpon>UIMain_old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\VoltageRegulatorForm.resx">
+      <DependentUpon>VoltageRegulatorForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\ManageDroneForm.resx">
+      <DependentUpon>ManageDroneForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\EditDeviceForm_old.resx">
+      <DependentUpon>EditDeviceForm_old.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\LibraryDeviceForm.resx">
+      <DependentUpon>LibraryDeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\ScanDeviceForm.resx">
+      <DependentUpon>ScanDeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\ManageDeviceForm.resx">
+      <DependentUpon>ManageDeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UI_Comm_CAN.resx">
+      <DependentUpon>UI_Comm_CAN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UI_Comm_PWM.resx">
+      <DependentUpon>UI_Comm_PWM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UI_Comm_UART.resx">
+      <DependentUpon>UI_Comm_UART.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UI_Comm_TCP.resx">
+      <DependentUpon>UI_Comm_TCP.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UI_Comm_Spare.resx">
+      <DependentUpon>UI_Comm_Spare.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UI_Comm_I2C.resx">
+      <DependentUpon>UI_Comm_I2C.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\EditDeviceForm.resx">
+      <DependentUpon>EditDeviceForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\SerialForm.resx">
+      <DependentUpon>SerialForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\UartConnectionForm.resx">
+      <DependentUpon>UartConnectionForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIDesign\ManageConfigForm.resx">
+      <DependentUpon>ManageConfigForm.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UIMain.resx">
+      <DependentUpon>UIMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <Content Include="Drone.ico" />
+    <Content Include="NLog.config">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Config\DevConfig.json" />
+    <None Include="NLog.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

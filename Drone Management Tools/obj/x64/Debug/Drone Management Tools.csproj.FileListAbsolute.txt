@@ -1,0 +1,80 @@
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\NLog.config
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Drone Management Tools.exe.config
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Drone Management Tools.exe
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Drone Management Tools.pdb
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.Licensing.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.1.5.3.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuGauge.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuLabel.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuTextBox.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Data.Desktop.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Data.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Drawing.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Printing.v22.2.Core.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Utils.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraEditors.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraGrid.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraLayout.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraPrinting.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Newtonsoft.Json.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\NLog.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Pdf.v22.2.Core.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Pdf.v22.2.Drawing.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Sparkline.v22.2.Core.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraBars.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.RichEdit.v22.2.Core.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraTreeList.v22.2.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Office.v22.2.Core.dll
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.1.5.3.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuGauge.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuLabel.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuShadowPanel.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Bunifu.UI.WinForms.BunifuTextBox.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Data.Desktop.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Data.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Printing.v22.2.Core.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Utils.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraEditors.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraGrid.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraLayout.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraPrinting.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\Newtonsoft.Json.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\NLog.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Pdf.v22.2.Core.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Pdf.v22.2.Drawing.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Sparkline.v22.2.Core.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraBars.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.RichEdit.v22.2.Core.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.XtraTreeList.v22.2.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\bin\x64\Debug\DevExpress.Office.v22.2.Core.xml
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.csproj.AssemblyReference.cache
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.Properties.Resources.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.AddDeviceForm_old.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.ConfigDeviceForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.DeviceResult.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.AddDeviceForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UIMain_old.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.VoltageRegulatorForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.ManageDroneForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.EditDeviceForm2.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.LibraryDeviceForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.ScanDeviceForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.ManageDeviceForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UI_Comm_CAN.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UI_Comm_PWM.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UI_Comm_UART.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UI_Comm_TCP.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UI_Comm_Spare.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UI_Comm_I2C.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.EditDeviceForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.SerialForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.UartConnectionForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIDesign.ManageConfigForm.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone_Management_Tools.UIMain.resources
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.csproj.GenerateResource.cache
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.exe.licenses
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.csproj.CoreCompileInputs.cache
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.csproj.CopyComplete
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.exe
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\x64\Debug\Drone Management Tools.pdb

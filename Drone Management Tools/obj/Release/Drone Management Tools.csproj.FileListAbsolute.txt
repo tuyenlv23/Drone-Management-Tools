@@ -1,0 +1,2 @@
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\Release\Drone Management Tools.csproj.AssemblyReference.cache
+D:\OneDrive - ATS JSC\PERSONAL\DEV_Extension\VuongLD\Drone Board\Drone Management Tools\Drone Management Tools\obj\Release\Drone Management Tools.csproj.SuggestedBindingRedirects.cache

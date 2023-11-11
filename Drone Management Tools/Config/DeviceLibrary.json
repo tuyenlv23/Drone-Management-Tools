@@ -1,0 +1,292 @@
+﻿{
+  "config": {
+    "name": "Drone Management",
+    "description": "Drone Management",
+    "updateTime": "0001-01-01T00:00:00"
+  },
+  "devices": [
+    {
+      "id": 1,
+      "name": "Device 1",
+      "voltage": 12,
+      "deviceCommTypes": "I2C",
+      "communications": [
+        {
+          "type": "I2C",
+          "parameters": {
+            "address": 1,
+            "speed": 200,
+            "masterSlaveMode": "Master",
+            "readWriteMode": "Read",
+            "ackMode": "No",
+            "startStopBits": 7,
+            "startConditionRepeat": "No"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 50,
+        "tmax": 0.5
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 2,
+      "name": "Device 2",
+      "voltage": 12,
+      "deviceCommTypes": "TCP",
+      "communications": [
+        {
+          "type": "TCP",
+          "parameters": {
+            "address": "192.168.1.1",
+            "port": 123,
+            "serverClientMode": "Client"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 111.222,
+        "tmax": 0.6
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 3,
+      "name": "Device 3",
+      "voltage": 24,
+      "deviceCommTypes": "CAN",
+      "communications": [
+        {
+          "type": "CAN",
+          "parameters": {
+            "baudrate": 9600,
+            "readWriteMode": "Read"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 11.33,
+        "tmax": 0.7
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 4,
+      "name": "Device 4",
+      "voltage": 24,
+      "deviceCommTypes": "UART",
+      "communications": [
+        {
+          "type": "UART",
+          "parameters": {
+            "baudrate": 9600,
+            "dataBits": 8,
+            "parity": "None",
+            "stopBits": 1
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 666.888,
+        "tmax": 0.8
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 5,
+      "name": "Device 5",
+      "voltage": 12,
+      "deviceCommTypes": "None",
+      "pwm": {
+        "tmin": 123.456,
+        "tmax": 1.1
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 6,
+      "name": "Device 6",
+      "voltage": 24,
+      "deviceCommTypes": "TCP_UART",
+      "communications": [
+        {
+          "type": "TCP",
+          "parameters": {
+            "address": "192.168.1.1",
+            "port": 123,
+            "serverClientMode": "Client"
+          }
+        },
+        {
+          "type": "UART",
+          "parameters": {
+            "baudrate": 9600,
+            "dataBits": 8,
+            "parity": "None",
+            "stopBits": 1
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 666.888,
+        "tmax": 0.8
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 7,
+      "name": "Device 7",
+      "voltage": 24,
+      "deviceCommTypes": "TCP_UART",
+      "communications": [
+        {
+          "type": "TCP",
+          "parameters": {
+            "address": "192.168.1.1",
+            "port": 123,
+            "serverClientMode": "Client"
+          }
+        },
+        {
+          "type": "I2C",
+          "parameters": {
+            "address": 1,
+            "speed": 200,
+            "masterSlaveMode": "Master",
+            "readWriteMode": "Read",
+            "ackMode": "No",
+            "startStopBits": 7,
+            "startConditionRepeat": "No"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 666.888,
+        "tmax": 0.8
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 8,
+      "name": "Device 8",
+      "voltage": 12,
+      "deviceCommTypes": "TCP_CAN",
+      "communications": [
+        {
+          "type": "TCP",
+          "parameters": {
+            "address": "192.168.1.1",
+            "port": 123,
+            "serverClientMode": "Client"
+          }
+        },
+        {
+          "type": "CAN",
+          "parameters": {
+            "baudrate": 9600,
+            "readWriteMode": "Read"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 666.888,
+        "tmax": 0.8
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 9,
+      "name": "Device 9",
+      "voltage": 12,
+      "deviceCommTypes": "UART_CAN",
+      "communications": [
+        {
+          "type": "UART",
+          "parameters": {
+            "baudrate": 9600,
+            "dataBits": 8,
+            "parity": "None",
+            "stopBits": 1
+          }
+        },
+        {
+          "type": "CAN",
+          "parameters": {
+            "baudrate": 9600,
+            "readWriteMode": "Read"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 666.888,
+        "tmax": 0.8
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    },
+    {
+      "id": 10,
+      "name": "Device 10",
+      "voltage": 12,
+      "deviceCommTypes": "UART_I2C",
+      "communications": [
+        {
+          "type": "UART",
+          "parameters": {
+            "baudrate": 9600,
+            "dataBits": 8,
+            "parity": "None",
+            "stopBits": 1
+          }
+        },
+        {
+          "type": "I2C",
+          "parameters": {
+            "address": 1,
+            "speed": 200,
+            "masterSlaveMode": "Master",
+            "readWriteMode": "Read",
+            "ackMode": "No",
+            "startStopBits": 7,
+            "startConditionRepeat": "No"
+          }
+        }
+      ],
+      "pwm": {
+        "tmin": 555.666,
+        "tmax": 0.8
+      },
+      "attribute": {
+        "state": "Registered",
+        "position": "OnBoard"
+      }
+    }
+  ]
+}
